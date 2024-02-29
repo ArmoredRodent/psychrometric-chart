@@ -25,6 +25,7 @@ Goals of this psychrometric chart:
 - [x] User-defined color schemes.
 
 ---------------------------------------------------------------------------
+View the live chart at: https://wulflemm.com/applets/PsychrometricChart/ !
 
 Too many changes to really document.
 - Added Tabs.
@@ -50,4 +51,3 @@ Too many changes to really document.
 * Metric psychrometric calculations: https://www.kwangu.com/work/psychrometric.htm
 
 Goal:  Dynamic chart that can be used in multiple ways.  One chart to rule them all!
-  
