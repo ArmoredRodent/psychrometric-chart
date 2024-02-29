@@ -43,8 +43,24 @@
 }
 
 input {
-    padding: 5px;
+    padding: 4px;
     cursor: inherit;
+}
+
+.input_long {
+	width: 16em;
+   margin-left: 10px;
+}
+.input_short{width: 5.5em;}
+
+select {
+  width: 4.5em;
+}
+input[type=number] {
+  width: 5.5em;
+}
+input[type=color] {
+  height: 36px;
 }
 
 .base-chart-options  input {
@@ -61,6 +77,15 @@ input {
 }
 
 .input-options {
+    display: inline-block;
+    width: 14em;
+}
+.text-options {
+    display: inline-block;
+    width: 7em;
+}
+
+.output-options {
     margin-top: 10px;
 }
 
@@ -79,4 +104,60 @@ label {
     -ms-user-select: none;
     -webkit-user-select: none;
 }
+div, p, ul {
+	margin: 0;
+	padding: 0;
+}
 
+#tab {
+	width: 420px;
+}
+
+.ui-tab {
+	list-style: none;
+	text-align: center;
+}
+.ui-tab li {
+	display: inline-block;
+	width: 90px;
+	text-align: center;
+	border-top: 1px solid #999;
+	border-left: 1px solid #999;
+	border-right: 1px solid #999;
+	border-radius: 5px 5px 0 0;
+}
+
+.ui-tab li a {
+	text-decoration: none;
+	display: block;
+	color: #000;
+	padding: 6px 10px 5px;
+}
+
+.ui-tabpanel {
+	border: 1px solid #999;
+	min-height: 200px;
+	padding: 10px;
+}
+.active {
+	padding: 10px 10px 5px !important;
+	border-bottom: 1px solid #fff;
+	margin: 0 0 -1px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 12em 3em 6em;
+  grid-template-rows: 2.5em;
+  grid-gap: 5px;
+  justify-items: center;
+  align-items: center;
+}
+
+#tooltip {
+	background: cornsilk;
+	border: 1px solid black;
+	border-radius: 5px;
+	padding: 5px;
+	width: 150px;
+}
