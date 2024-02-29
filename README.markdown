@@ -20,7 +20,34 @@ Goals of this psychrometric chart:
 
 ## Still to do:
 
-- [ ] Show other calculated psychrometric properties for states.
-- [ ] Use other properties besides humidity ratio for fixing states.
-- [ ] User-defined color schemes.
+- [x] Show other calculated psychrometric properties for states.
+- [x] Use other properties besides humidity ratio for fixing states.
+- [x] User-defined color schemes.
 
+---------------------------------------------------------------------------
+
+Too many changes to really document.
+- Added Tabs.
+- Added selectable outputs for each state.
+- Added chart colors (default (6) and user selected (3)).
+- Added editable titles for multilanguage support.
+- Added Tbd & %RH and Tbd & Twb to control state selection.
+- Limit state selection within chart.
+- Local storage for all variables so users can go to their default state.
+- Fixed bug where Vapor Press did not update as Max ω > 0.3.
+- Added Altitude (14.7psi vs 14.696psi at 0ft).
+- Added Minimum Temperature.
+- Add Vapor Pressure to Show Chart.
+- Set font for RH and Twb to fix a bug where saved svg fonts were larger than chart.
+- Up to 3 states can be loaded from url.  
+- Rearranged order of svg elements - axis, chart, border.
+- Added draw line with mouse + spacebar = very crude.
+
+  ## Additional Technologies used
+* Local storage of ko variables: https://github.com/jimrhoskins/knockout.localStorage/blob/master/knockout.localStorage.js
+* Color Picker: https://www.educative.io/answers/how-to-add-a-color-picker-in-html
+* SaveSVG: https://stackoverflow.com/questions/23218174/how-do-i-save-export-an-svg-file-after-creating-an-svg-with-d3-js-ie-safari-an
+* Metric psychrometric calculations: https://www.kwangu.com/work/psychrometric.htm
+
+Goal:  Dynamic chart that can be used in multiple ways.  One chart to rule them all!
+  
