@@ -27,20 +27,22 @@ Goals of this psychrometric chart:
 ---------------------------------------------------------------------------
 View the live chart at: https://wulflemm.com/applets/PsychrometricChart/ !
 
+## Changes
 Too many changes to really document.
 - Added Tabs.
 - Added selectable outputs for each state.
 - Added chart colors (default (6) and user selected (3)).
 - Added editable titles for multilanguage support.
+- Added dropdown to select input. 
 - Added Tbd & %RH and Tbd & Twb to control state selection.
 - Limit state selection within chart.
 - Local storage for all variables so users can go to their default state.
 - Fixed bug where Vapor Press did not update as Max ω > 0.3.
 - Added Altitude (14.7psi vs 14.696psi at 0ft).
-- Added Minimum Temperature.
+- Added Minimum Temperature (10°F).
 - Add Vapor Pressure to Show Chart.
 - Set font for RH and Twb to fix a bug where saved svg fonts were larger than chart.
-- Up to 3 states can be loaded from url.  
+- Up to 3 states can be loaded from url.  https://wulflemm.com/applets/PsychrometricChart/index.html?Tdb1=75&w=0.0168241&Tdb2=90&Tdb3=105&w3=0.0242502 - Three states
 - Rearranged order of svg elements - axis, chart, border.
 - Added draw line with mouse + spacebar = very crude.
 
