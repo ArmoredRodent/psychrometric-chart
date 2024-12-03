@@ -25,7 +25,7 @@ Goals of this psychrometric chart:
 - [x] User-defined color schemes.
 
 ---------------------------------------------------------------------------
-View the live chart at: https://wulflemm.com/applets/PsychrometricChart/ !
+View the new live chart at: [https://wulflemm.com/applets/PsychrometricChart/](https://wulflemm.com/applets/PsychrometricChart/)!
 
 ## Changes
 Too many changes to really document.
